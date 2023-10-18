@@ -203,7 +203,7 @@ async def play_command(ctx, *, input_str: str):
     await ctx.send(f"Now playing '{selected_result['title']}' by '{selected_result['channel']['name']}' in '{voice_channel.name}'.")
 
 async def main():
-    await bot.start('MTA5Mjk0MDY1Njg3NzUxNDkxMg.GlTxPS.6p71hxiq-orLGSKXnW1gA1LNu7ad9_0PXLfeWk')
+    await bot.start('#token')
 
 if __name__ == '__main__':
     asyncio.run(main())
